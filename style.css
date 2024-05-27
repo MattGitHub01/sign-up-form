@@ -63,3 +63,20 @@
     position: relative;
     top: 18.8rem;
 }
+
+.photo-ref-links {
+    color: inherit;
+}
+
+.photo-ref-links:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.photo-ref-links:active {
+    color: white;
+}
+
+.photo-ref-links:visited {
+    color: inherit;
+}
