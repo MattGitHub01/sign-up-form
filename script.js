@@ -19,3 +19,10 @@ logoBanner.appendChild(logoText);
 
 const photoRefTest = document.querySelector('.photo-ref-text');
 logoArea.appendChild(photoRefTest);
+
+const formContainer = document.createElement('div');
+formContainer.classList.add('form-container');
+container.appendChild(formContainer);
+
+const formHeader = document.querySelector('.form-header');
+formContainer.appendChild(formHeader);
