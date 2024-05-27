@@ -14,5 +14,8 @@ logoBanner.appendChild(logoPicture);
 
 const logoText = document.createElement('span');
 logoText.classList.add('logo-text');
-logoText.textContent = "ODIN";
+logoText.textContent = 'ODIN';
 logoBanner.appendChild(logoText);
+
+const photoRefTest = document.querySelector('.photo-ref-text');
+logoArea.appendChild(photoRefTest);

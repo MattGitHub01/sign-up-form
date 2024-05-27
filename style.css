@@ -13,6 +13,7 @@
 
 .logo-area {
     display: flex;
+    flex-direction: column;
     width: 37%;
     height: 101vh;
     background-image: url('./images/leaves.jpg');
@@ -52,4 +53,13 @@
     color: white;
     text-align: left;
     padding-top: 1.1rem;
+}
+
+.photo-ref-text {
+    color: rgba(243, 243, 243, 0.718);
+    font-size: .65rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 18.8rem;
 }
