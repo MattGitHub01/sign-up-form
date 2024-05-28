@@ -35,8 +35,23 @@ formContainer.appendChild(formBanner);
 const formTag = document.querySelector('.form-tag');
 formBanner.appendChild(formTag);
 
+const existingAcctBanner = document.createElement('div');
+existingAcctBanner.classList.add('exist-acct-banner');
+formContainer.appendChild(existingAcctBanner);
+
 const submitBtn = document.createElement('button');
-submitBtn.textContent = 'Submit';
+submitBtn.textContent = 'Create Account';
 submitBtn.setAttribute('type', 'submit');
 submitBtn.setAttribute('form', 'form-tag');
-formContainer.appendChild(submitBtn);
+existingAcctBanner.appendChild(submitBtn);
+
+const existingAcctTxt = document.createElement('span');
+existingAcctTxt.classList.add('existing-acct-text');
+existingAcctTxt.textContent = 'Already have an account? ';
+existingAcctBanner.appendChild(existingAcctTxt);
+
+const existingAcctLink = document.createElement('a');
+existingAcctLink.setAttribute('href', './no-acct.html');
+existingAcctLink.classList.add('existing-acct-link');
+existingAcctLink.textContent = 'Log in';
+existingAcctBanner.appendChild(existingAcctLink);
