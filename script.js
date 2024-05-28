@@ -26,3 +26,6 @@ container.appendChild(formContainer);
 
 const formHeader = document.querySelector('.form-header');
 formContainer.appendChild(formHeader);
+
+const formTag = document.querySelector('.form-tag');
+formContainer.appendChild(formTag);
