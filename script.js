@@ -24,8 +24,13 @@ const formContainer = document.createElement('div');
 formContainer.classList.add('form-container');
 container.appendChild(formContainer);
 
+
 const formHeader = document.querySelector('.form-header');
 formContainer.appendChild(formHeader);
 
+const formBanner = document.createElement('div');
+formBanner.classList.add('form-banner');
+formContainer.appendChild(formBanner);
+
 const formTag = document.querySelector('.form-tag');
-formContainer.appendChild(formTag);
+formBanner.appendChild(formTag);
