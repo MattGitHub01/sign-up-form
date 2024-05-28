@@ -32,6 +32,12 @@ li {
 
 input {
     border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    border-radius: 5px;
 }
 
 button {
@@ -167,6 +173,11 @@ button {
     background-color: white;
     display: flex;
     flex-direction: row;
+}
+
+.password-inputs:invalid {
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .existing-acct-text {

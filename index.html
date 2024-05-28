@@ -18,29 +18,29 @@
                         <ul>
                             <li>
                                 <label for="first-name">First Name</label>
-                                <input type="text" id="first-name">
-                            </li>
-                            <li>
-                                <label for="last-name">Last Name</label>
-                                <input type="text" id="last-name">
+                                <input type="text" id="first-name" name="first-name" minlength="1" maxlength="22" required>
                             </li>
                             <li>
                                 <label for="email">Email</label>
-                                <input type="text" id="email">
+                                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                            </li>
+                            <li>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="password-inputs" name="password" required>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <label for="phone-num">Phone Number</label>
-                                <input type="text" id="phone-num">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name" minlength="1" maxlength="22" required>
                             </li>
                             <li>
-                                <label for="password">Password</label>
-                                <input type="text" id="password">
+                                <label for="phone-num">Phone Number</label>
+                                <input type="text" id="phone-num" name="phone-num" minlength="7" maxlength="15" placeholder="555-555-5555" required>
                             </li>
                             <li>
                                 <label for="confirm-password">Confirm Password</label>
-                                <input type="text" id="confirm-password">
+                                <input type="password" id="confirm-password" class="password-inputs" class="" name="confirm-password" required>
                             </li>
                         </ul>
                     </div>
