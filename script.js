@@ -34,3 +34,9 @@ formContainer.appendChild(formBanner);
 
 const formTag = document.querySelector('.form-tag');
 formBanner.appendChild(formTag);
+
+const submitBtn = document.createElement('button');
+submitBtn.textContent = 'Submit';
+submitBtn.setAttribute('type', 'submit');
+submitBtn.setAttribute('form', 'form-tag');
+formContainer.appendChild(submitBtn);
