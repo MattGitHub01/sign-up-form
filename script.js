@@ -54,4 +54,4 @@ const existingAcctLink = document.createElement('a');
 existingAcctLink.setAttribute('href', './no-acct.html');
 existingAcctLink.classList.add('existing-acct-link');
 existingAcctLink.textContent = 'Log in';
-existingAcctBanner.appendChild(existingAcctLink);s
+existingAcctBanner.appendChild(existingAcctLink);
